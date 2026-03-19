@@ -64,7 +64,7 @@ const PaymentModal = ({ booking, onClose, onPaid }) => {
 
         {/* Header */}
         <div className="pay-header">
-          <div className="pay-logo">🌊 Araliya Resort</div>
+          <div className="pay-logo">🌊 HMTL Resort</div>
           <div className="pay-amount">
             <div className="pay-total">{totalRs}</div>
             <div className="pay-desc">Booking #{booking.id} — {booking.room_type} Room</div>
@@ -102,7 +102,7 @@ const PaymentModal = ({ booking, onClose, onPaid }) => {
                 {/* Visual Card Preview */}
                 <div className="card-preview" style={{background:`linear-gradient(135deg, ${ct.color}, #1a4a5e)`}}>
                   <div className="cp-top">
-                    <span className="cp-bank">Araliya Resort</span>
+                    <span className="cp-bank">HMTL Resort</span>
                     <span className="cp-type">{ct.name}</span>
                   </div>
                   <div className="cp-chip">▣</div>

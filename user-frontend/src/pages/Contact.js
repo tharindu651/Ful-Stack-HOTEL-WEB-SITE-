@@ -37,9 +37,9 @@ const Contact = () => {
         <div className="contact-info">
           <h2>How to Reach Us</h2>
           {[
-            { icon:'📍', title:'Address', lines:['Welledewala Road, Yaddehimulla','Unawatuna, Galle 80000','Sri Lanka'] },
+            { icon:'📍', title:'Address', lines:['Nilaweli Road,  Alass Graden','Trincomalee ,80000','Sri Lanka'] },
             { icon:'📞', title:'Phone',   lines:['+94 91 222 3456', '+94 77 888 9900 (WhatsApp)'] },
-            { icon:'✉️', title:'Email',   lines:['info@araliyaresort.lk','reservations@araliyaresort.lk'] },
+            { icon:'✉️', title:'Email',   lines:['info@hmtlresort.lk','reservations@hmtlresort.lk'] },
             { icon:'🕐', title:'Hours',   lines:['Check-in: 2:00 PM','Check-out: 12:00 PM','Front Desk: 24/7'] },
           ].map((c,i) => (
             <div className="ci-item" key={i}>

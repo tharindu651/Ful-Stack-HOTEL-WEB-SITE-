@@ -35,7 +35,7 @@ const Navbar = () => {
         <Link to="/" className="nav-brand">
           <span className="brand-icon">🌊</span>
           <div>
-            <div className="brand-name">Araliya</div>
+            <div className="brand-name">HMTL</div>
             <div className="brand-sub">Beach Resort & Spa</div>
           </div>
         </Link>

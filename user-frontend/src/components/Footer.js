@@ -17,11 +17,11 @@ const Footer = () => {
               <div className="footer-logo">
                 <span>🌊</span>
                 <div>
-                  <div className="footer-brand-name">Araliya</div>
+                  <div className="footer-brand-name">HMTL</div>
                   <div className="footer-brand-sub">Beach Resort & Spa</div>
                 </div>
               </div>
-              <p>Where you meet the sea all year. Experience luxury, tranquility, and world-class hospitality on the shores of Unawatuna.</p>
+              <p>Where you meet the sea all year. Experience luxury, tranquility, and world-class hospitality on the shores of Trincomalee.</p>
               <div className="footer-socials">
                 <a href="#!" aria-label="Facebook">📘</a>
                 <a href="#!" aria-label="Instagram">📷</a>
@@ -60,7 +60,7 @@ const Footer = () => {
               <div className="footer-contact">
                 <div className="contact-item">
                   <span>📍</span>
-                  <span>Welledewala Road, Yaddehimulla, Unawatuna 80000, Sri Lanka</span>
+                  <span>Nilaweli Road, Alas Graden, Trincomalee 80000, Sri Lanka</span>
                 </div>
                 <div className="contact-item">
                   <span>📞</span>
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
                 <div className="contact-item">
                   <span>✉️</span>
-                  <span>info@araliyaresort.lk</span>
+                  <span>info@hmtlresort.lk</span>
                 </div>
                 <div className="contact-item">
                   <span>🕐</span>
@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} Araliya Beach Resort & Spa Unawatuna. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} HMTL Beach Resort & Spa Trincomalee. All rights reserved.</p>
             <div className="footer-bottom-links">
               <a href="#!">Privacy Policy</a>
               <a href="#!">Terms of Service</a>

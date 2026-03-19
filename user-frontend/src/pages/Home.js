@@ -74,7 +74,7 @@ const Home = () => {
           
           {/* Navigation Arrows */}
           <button className="banner-nav banner-prev" onClick={handlePrevBanner} title="Previous image">‹</button>
-          <button className="banner-nav banner-next" onClick={handleNextBanner} title="Next image">›</button>
+          <button className="banner-nav banner-next" onClick={handleNextBanner} title="Next image"> › </button>
           
           {/* Indicator Dots */}
           <div className="banner-indicators">
@@ -90,9 +90,9 @@ const Home = () => {
         </div>
 
         <div className="hero-content container">
-          <p className="hero-tagline">Welcome to Unawatuna, Sri Lanka</p>
+          <p className="hero-tagline">Welcome to Trincomalee, Sri Lanka</p>
           <h1 className="hero-title">Where You Meet<br/><em>The Sea All Year</em></h1>
-          <p className="hero-desc">Nestled on a pristine white-sand beach, Araliya Beach Resort & Spa offers an unforgettable luxury escape with world-class dining, rejuvenating spa treatments, and breathtaking ocean views.</p>
+          <p className="hero-desc">Nestled on a pristine white-sand beach, HMTL Beach Resort & Spa offers an unforgettable luxury escape with world-class dining, rejuvenating spa treatments, and breathtaking ocean views.</p>
           <div className="hero-actions">
             <Link to="/rooms"    className="btn btn-gold">Explore Rooms</Link>
             <Link to="/packages" className="btn btn-outline-white">View Packages</Link>
