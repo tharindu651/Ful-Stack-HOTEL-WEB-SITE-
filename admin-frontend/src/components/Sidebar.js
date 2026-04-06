@@ -3,6 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import './Sidebar.css';
 
+
 const NAV = [
   { id:'overview',  icon:'📊', label:'Overview'     },
   { id:'bookings',  icon:'🛏️', label:'Bookings'     },

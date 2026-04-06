@@ -29,7 +29,7 @@
 .banner-nav {
   position: absolute; top: 50%; z-index: 3;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.25); color: white;
+  background: rgba(255,255,255,0.25); color: rgb(234, 47, 47);
   border: 3px solid rgba(255,255,255,0.5);
   width: clamp(40px, 8%, 60px); height: clamp(40px, 8%, 60px);
   border-radius: 50%;
