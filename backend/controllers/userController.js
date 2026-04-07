@@ -68,7 +68,7 @@ const getUserById = async (req, res) => {
       [req.params.id]
     );
     if (!rows.length)
-      return res.status(404).json({ message: 'User not found.' });
+      return res.status(404).json({ message: 'User is not found.' });
 
     // Attach booking + order summaries
     const [[bookings]] = await db.query(

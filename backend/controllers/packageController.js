@@ -79,7 +79,7 @@ const updatePackage = async (req, res) => {
       'SELECT * FROM packages WHERE id = ?', [req.params.id]
     );
     if (!rows.length)
-      return res.status(404).json({ message: 'Package not found.' });
+      return res.status(404).json({ message: 'Packageo is not found.' });
 
     const p = rows[0];
     const { name, type, price, description, includes, duration, image_url, is_active } = req.body;

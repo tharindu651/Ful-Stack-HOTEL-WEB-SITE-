@@ -157,7 +157,7 @@ const updateRoom = async (req, res) => {
       'SELECT * FROM rooms WHERE id = ?', [req.params.id]
     );
     if (!rows.length)
-      return res.status(404).json({ message: 'Room not found.' });
+      return res.status(404).json({ message: 'Room is not found.' });
 
     const r = rows[0];
     const {
@@ -190,7 +190,7 @@ const updateRoom = async (req, res) => {
       ]
     );
 
-    res.json({ message: 'Room updated successfully.' });
+    res.json({ message: 'Room updated successfully .' });
   } catch (err) {
     console.error('[RoomController.updateRoom]', err);
     res.status(500).json({ message: 'Server error.' });

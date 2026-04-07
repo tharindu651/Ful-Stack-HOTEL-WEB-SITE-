@@ -39,7 +39,7 @@ const getStaffById = async (req, res) => {
       'SELECT * FROM staff WHERE id = ?', [req.params.id]
     );
     if (!rows.length)
-      return res.status(404).json({ message: 'Staff member not found.' });
+      return res.status(404).json({ message: 'Staff member is not found.' });
     res.json(rows[0]);
   } catch (err) {
     console.error('[StaffController.getStaffById]', err);
